@@ -52,6 +52,7 @@ h1 em{font-style:normal;color:var(--brand)}
 .pulse{animation:pulse 2.4s ease-in-out infinite}
 @keyframes pulse{0%,100%{box-shadow:0 6px 18px rgba(194,65,12,.35)}50%{box-shadow:0 6px 28px rgba(194,65,12,.6)}}
 @media (prefers-reduced-motion:reduce){.pulse,.shake{animation:none!important}html{scroll-behavior:auto}}
+.fees{font-size:13px;color:var(--muted);font-weight:500;margin-top:4px}
 .trust{display:flex;justify-content:center;gap:6px 12px;flex-wrap:wrap;margin-top:9px;font-size:13.5px;font-weight:700;color:var(--ink)}
 /* sections */
 section{padding:28px 0}
@@ -192,6 +193,7 @@ footer b{color:#fff}
     </div>
     <a href="#variante" class="btn pulse" id="heroCta" data-go>اختاري نوع بشرتك واطلبي الآن</a>
     <div class="trust"><span>💵 الدفع عند الاستلام</span><span>🚚 التوصيل لجميع مدن المغرب</span><span>🎁 حقيبة هدية مع كل طلب</span></div>
+    <p class="fees">رسوم التوصيل: <span class="num">15</span> درهم داخل الدار البيضاء · <span class="num">25</span> درهم لباقي المدن</p>
   </section>
 
   <!-- 3. LE PROBLÈME (+ vidéo 9:16 si assets/video.mp4 existe) -->
@@ -338,9 +340,8 @@ footer b{color:#fff}
       <details><summary>هل أستعمله في الشتاء؟</summary><p>نعم، كل يوم. الأشعة فوق البنفسجية موجودة طوال السنة، وشمس المغرب قوية حتى في الشتاء.</p></details>
       <details><summary>كيف أستعمله؟</summary><p>ضعيه بسخاء على الوجه والرقبة قبل التعرّض للشمس، وجدّديه كل ساعتين وبعد السباحة أو التعرّق أو المسح بالمنشفة.</p></details>
       <details><summary>كيف أدفع؟</summary><p>عند الاستلام. تدفعين عندما يصلك طلبك، ولا تدفعين شيئًا الآن.</p></details>
-      <details><summary>متى يصل طلبي؟</summary><p><span class="tbc">[DÉLAI À CONFIRMER]</span> — نوصّل إلى جميع مدن المغرب.</p></details>
-      <details><summary>كم ثمن التوصيل؟</summary><p><span class="tbc">[FRAIS DE LIVRAISON À CONFIRMER]</span></p></details>
-      <details><summary>ما حجم العبوة؟</summary><p><span class="tbc">[CONTENANCE À CONFIRMER]</span></p></details>
+      <details><summary>متى يصل طلبي؟</summary><p>من <span class="num">24</span> إلى <span class="num">48</span> ساعة — نوصّل إلى جميع مدن المغرب.</p></details>
+      <details><summary>كم ثمن التوصيل؟</summary><p><span class="num">15</span> درهم داخل الدار البيضاء، و<span class="num">25</span> درهم لباقي المدن. أي أن طلبك يصلك بـ <span class="num">224</span> درهم في الدار البيضاء أو <span class="num">234</span> درهم في باقي المدن.</p></details>
     </div>
   </section>
 
@@ -374,7 +375,7 @@ footer b{color:#fff}
           <div class="er" id="e-address" aria-live="polite"></div></div>
         <button class="btn wait" type="submit" id="submitBtn">اختاري نوع بشرتك أولًا</button>
         <p class="fine">💵 الدفع عند الاستلام · سنتصل بك لتأكيد الطلب</p>
-        <p class="fine">ثمن التوصيل: <span class="tbc">[À CONFIRMER]</span></p>
+        <p class="fine">رسوم التوصيل: <span class="num">15</span> درهم داخل الدار البيضاء · <span class="num">25</span> درهم لباقي المدن</p>
       </form>
       <div class="msg ok" id="msgOk" hidden role="status">✅ شكرًا! سنتصل بك قريبًا لتأكيد طلبك</div>
       <div class="msg test" id="msgTest" hidden role="status">🧪 وضع تجريبي: لم يُرسَل الطلب (<span class="lat">ORDER_ENDPOINT</span> فارغ)</div>
