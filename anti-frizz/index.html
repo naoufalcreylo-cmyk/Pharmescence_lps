@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Pack Anti-Frizz Björn Axén — Shampoing + Après-shampoing — 375 DH</title>
+<meta name="description" content="Pack Anti-Frizz Björn Axén : shampoing + après-shampoing sans sulfates pour cheveux frisés, bouclés ou indisciplinés. 375 DH au lieu de 475. Paiement à la livraison.">
+<meta name="theme-color" content="#2E3A4F">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap">
+<link rel="preload" as="image" href="assets/hero-full-480.webp" imagesrcset="assets/hero-full-480.webp 480w, assets/hero-full.webp 750w" imagesizes="(max-width:520px) 100vw, 520px">
+<style>
+/* Inspiré de la LP Dropify Björn Axén Moisture : visuels pleine largeur, bandeaux de couleur, capitales grasses, bandeau prix. */
+:root{--rose:#D6B2A3;--rose-2:#EAD3C9;--rose-3:#F8EEE9;--rose-ink:#A35F4E;--navy:#2E3A4F;--navy-2:#1E2838;--gold:#E2A72E;--ink:#24202A;--muted:#6A5E62;--line:#EBDAD2;--ok:#13795B;--err:#B42318}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{font-family:Montserrat,"Segoe UI",Arial,sans-serif;color:var(--ink);background:#EFE4DF;line-height:1.5;font-size:16px;padding-bottom:calc(76px + env(safe-area-inset-bottom))}
+img{display:block;max-width:100%;height:auto}
+button,input{font:inherit;color:inherit}
+[hidden]{display:none!important}
+.page{max-width:520px;margin:0 auto;background:#fff;min-height:100vh;overflow:hidden}
+.wrap{padding:0 16px}
+.num{white-space:nowrap}
+.full{width:100%}
+/* top */
+.topbar{background:var(--navy-2);color:#fff;font-size:12.5px;font-weight:700;text-align:center;padding:6px 10px;letter-spacing:.02em}
+.head{display:flex;align-items:center;justify-content:center;padding:12px 16px 10px;background:#fff}
+.wordmark{font-size:23px;font-weight:500;letter-spacing:.26em;color:var(--navy);line-height:1;padding-left:.26em}
+/* bandeaux */
+.band{background:var(--navy);color:#fff;text-align:center;padding:12px 16px;font-size:17px;font-weight:600;text-transform:uppercase;letter-spacing:.03em}
+.band b{font-weight:900;text-transform:none;font-size:19px}
+.band.rose{background:var(--rose);color:#fff}
+.title{font-size:25px;line-height:1.15;font-weight:900;text-transform:uppercase;text-align:center;color:var(--navy);margin-bottom:14px}
+.title em{font-style:normal;color:var(--rose-ink)}
+.title small{display:block;font-size:16px;font-weight:600;letter-spacing:.02em;color:var(--muted);margin-top:6px}
+.tagline{font-size:18px;line-height:1.25;font-weight:900;text-transform:uppercase;text-align:center;color:var(--navy);padding:16px 16px 4px}
+section{padding:28px 0}
+.rosebg{background:var(--rose-3)}
+/* prix */
+.priceband{background:var(--navy);color:#fff;text-align:center;padding:14px 16px 18px}
+.priceband .was{font-size:22px;font-weight:800;opacity:.75}
+.priceband .was s{text-decoration-thickness:3px;text-decoration-color:var(--gold)}
+.priceband .now{font-size:64px;font-weight:900;line-height:1;letter-spacing:-.02em}
+.priceband .now sup{font-size:26px;vertical-align:top;position:relative;top:8px;margin-left:2px}
+.priceband .save{display:inline-block;margin-top:8px;background:var(--gold);color:var(--navy-2);font-weight:900;font-size:14px;padding:4px 12px;border-radius:99px;text-transform:uppercase}
+.cta{padding:16px 16px 4px;background:#fff}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:58px;padding:12px 16px;border:0;border-radius:12px;background:var(--gold);color:var(--navy-2);font-size:18px;font-weight:900;text-transform:uppercase;letter-spacing:.02em;text-decoration:none;cursor:pointer;box-shadow:0 6px 18px rgba(226,167,46,.45);transition:transform .1s,background .2s}
+.btn:active{transform:scale(.98);background:#CF961F}
+.btn:focus-visible{outline:3px solid var(--navy);outline-offset:2px}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 6px 18px rgba(226,167,46,.45)}50%{box-shadow:0 6px 30px rgba(226,167,46,.8)}}
+@media (prefers-reduced-motion:reduce){.pulse{animation:none!important}html{scroll-behavior:auto}}
+.trust{display:flex;justify-content:center;gap:6px 12px;flex-wrap:wrap;padding:12px 16px 0;font-size:13px;font-weight:700}
+.fees{font-size:12.5px;color:var(--muted);font-weight:500;text-align:center;padding:6px 16px 18px}
+/* problèmes */
+.probs{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.prob{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px;font-weight:700;font-size:14.5px;line-height:1.4}
+.prob .ic{font-size:26px;display:block;margin-bottom:4px}
+/* étapes */
+.step-sub{font-size:17px;line-height:1.25;font-weight:900;text-transform:uppercase;text-align:center;color:var(--rose-ink);padding:16px 16px 0;background:#F1F0EF}
+.step-img{background:#F1F0EF}
+/* avant / après */
+.ba{background:var(--rose);padding:22px 12px 0}
+.ba .title{color:#fff}
+.ba-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.ba-col{background:#fff;text-align:center;display:flex;flex-direction:column}
+.ba-col .lb{display:inline-block;margin:10px auto 6px;background:var(--navy);color:#fff;font-weight:800;font-size:13px;padding:3px 14px;text-transform:uppercase}
+.ba-col p{font-weight:900;font-size:13.5px;line-height:1.2;text-transform:uppercase;color:var(--rose-ink);padding:0 8px 8px;min-height:52px}
+.ba-col img{margin-top:auto}
+.ba-foot{color:#fff;text-align:center;font-weight:900;font-size:19px;line-height:1.2;text-transform:uppercase;padding:16px 8px 20px}
+/* pour qui */
+.who{list-style:none;display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.who li{background:#fff;border:2px solid var(--rose);border-radius:99px;padding:7px 14px;font-weight:700;font-size:14px}
+/* marque */
+.brand{display:grid;gap:10px}
+.brand div{display:flex;gap:12px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 14px;font-weight:800;font-size:15px}
+.brand .ic{flex:none;width:42px;height:42px;border-radius:50%;background:var(--rose-2);display:grid;place-items:center;font-size:20px}
+.brand small{display:block;font-weight:500;color:var(--muted);font-size:13.5px;margin-top:2px}
+/* routine */
+.how{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.how div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 12px;font-size:14px;line-height:1.45;color:var(--muted)}
+.how b{display:block;color:var(--ink);font-size:15.5px;margin-bottom:4px}
+.how .st{display:inline-block;background:var(--navy);color:#fff;font-weight:800;font-size:12px;padding:2px 10px;border-radius:99px;margin-bottom:8px;text-transform:uppercase}
+.tip{margin-top:12px;text-align:center;font-weight:700;font-size:15px}
+/* avis en bulles */
+.avis{background:#F4F7F8}
+.avis .title{text-align:left;padding:0 4px}
+.bubbles{display:grid;gap:14px}
+.bubble{max-width:88%}
+.bubble:nth-child(even){margin-left:auto}
+.bubble b{display:block;font-size:14px;font-weight:800;color:var(--navy);margin:0 0 4px 10px}
+.bubble p{background:#fff;border-radius:18px;padding:12px 14px;font-size:14.5px;font-weight:500;box-shadow:0 6px 18px rgba(30,40,56,.12)}
+.bubble:nth-child(odd) p{border-top-left-radius:4px}
+.bubble:nth-child(even) p{border-top-right-radius:4px}
+/* faq */
+.faq details{border:1px solid var(--line);border-radius:14px;margin-bottom:8px;background:#fff}
+.faq summary{list-style:none;cursor:pointer;padding:14px 16px;font-weight:800;font-size:15.5px;display:flex;justify-content:space-between;align-items:center;gap:10px;min-height:52px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:24px;color:var(--navy);line-height:1;flex:none}
+.faq details[open] summary::after{content:"−"}
+.faq details p{padding:0 16px 14px;color:var(--muted);font-size:15px}
+/* commande */
+.order{background:var(--rose-3);padding-top:22px}
+.recap{display:flex;gap:12px;align-items:center;background:#fff;border-radius:14px;padding:10px;margin-bottom:14px;border:1px solid var(--line)}
+.recap .ri{width:76px;height:76px;border-radius:10px;overflow:hidden;background:#fff;flex:none}
+.recap .ri img{width:100%;height:100%;object-fit:cover}
+.recap b{display:block;font-size:14.5px;line-height:1.35}
+.recap .rv{font-size:13px;font-weight:600;margin-top:2px;color:var(--muted)}
+.recap .pr{color:var(--navy);font-weight:900;font-size:20px}
+.recap .pr small{color:var(--muted);font-size:13px;font-weight:600;margin-left:4px}
+form{display:grid;gap:12px}
+label,legend{font-weight:800;font-size:14.5px;display:block;margin-bottom:4px}
+.f input:not([type=radio]){width:100%;min-height:52px;border:1.5px solid #D9C8C0;border-radius:12px;padding:10px 14px;font-size:17px;background:#fff}
+.f input:not([type=radio]):focus{outline:none;border-color:var(--navy);box-shadow:0 0 0 3px rgba(46,58,79,.15)}
+.f input[aria-invalid=true]{border-color:var(--err)}
+.f .er{color:var(--err);font-size:13px;font-weight:700;margin-top:3px}
+.f .er:empty{display:none}
+fieldset.f{border:0}
+.ship{display:grid;gap:8px}
+.ship label{display:flex;align-items:center;gap:10px;margin:0;min-height:52px;padding:10px 14px;border:1.5px solid #D9C8C0;border-radius:12px;background:#fff;font-weight:700;font-size:15px;cursor:pointer}
+.ship label span{margin-left:auto;font-weight:800;color:var(--navy)}
+.ship input{width:20px;height:20px;accent-color:var(--navy);flex:none}
+.ship label:has(input:checked){border-color:var(--navy);box-shadow:0 0 0 3px rgba(46,58,79,.15)}
+.ship.bad label{border-color:var(--err)}
+.total{display:flex;justify-content:space-between;align-items:center;background:#fff;border-radius:12px;padding:10px 14px;font-weight:800;border:1px dashed var(--rose)}
+.total strong{font-size:20px;color:var(--navy)}
+.fine{font-size:13.5px;color:var(--muted);text-align:center;font-weight:600}
+.msg{border-radius:14px;padding:16px;text-align:center;font-weight:800;font-size:16px}
+.msg.ok{background:#E3F6EE;color:var(--ok)}
+.msg.test{background:#FFF4C2;color:#6B4E00;font-size:14.5px}
+.msg.fail{background:#FDE7EB;color:var(--err);font-size:14.5px}
+.btn[disabled]{opacity:.7;cursor:wait}
+footer{background:var(--navy-2);color:#DDE1E8;text-align:center;padding:22px 16px 26px;font-size:13.5px}
+footer .ph{height:22px;width:auto;margin:0 auto 8px;background:#fff;padding:6px 10px;border-radius:8px;box-sizing:content-box}
+footer b{color:#fff}
+.sticky{position:fixed;inset-inline:0;bottom:0;z-index:50;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.96);box-shadow:0 -4px 18px rgba(30,40,56,.15);transform:translateY(110%);transition:transform .25s ease;max-width:520px;margin:0 auto}
+.sticky.on{transform:none}
+.sticky .btn{min-height:52px;font-size:17px}
+@media (min-width:560px){body{padding-top:16px}.page{border-radius:22px 22px 0 0;box-shadow:0 10px 40px rgba(30,40,56,.12)}}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="topbar">💵 Paiement à la livraison · 🚚 Partout au Maroc</div>
+
+  <header class="head">
+    <span class="wordmark" aria-label="Björn Axén">BJÖRN AXÉN</span>
+  </header>
+
+  <main>
+  <!-- 1. HERO : visuel pleine largeur + bandeau prix (comme la LP Dropify Moisture) -->
+  <section style="padding:0" id="hero">
+    <img class="full" src="assets/hero-full-480.webp" srcset="assets/hero-full-480.webp 480w, assets/hero-full.webp 750w" sizes="(max-width:520px) 100vw, 520px" width="750" height="1095" fetchpriority="high" alt="Pack Anti-Frizz : bye bye frisottis ! Longs cheveux noirs lisses et brillants. Purveyor to the Royal Court of Sweden">
+    <div class="band rose">Shampoing + Après-shampoing <b>Anti-Frizz</b></div>
+    <div class="priceband" aria-label="Prix : 375 DH au lieu de 475 DH">
+      <div class="was"><s><span class="num">475 DH</span></s></div>
+      <div class="now"><span class="num">375<sup>DH</sup></span></div>
+      <span class="save">Économisez <span class="num">100 DH</span></span>
+    </div>
+    <div class="cta"><a href="#commander" class="btn pulse" id="heroCta">J'en profite</a></div>
+    <div class="trust"><span>💵 Paiement à la livraison</span><span>🚚 24 à 48 h</span><span>🌿 0 % sulfates</span></div>
+    <p class="fees">Livraison : <span class="num">15 DH</span> Casablanca · <span class="num">25 DH</span> autres villes</p>
+  </section>
+
+  <!-- 2. LE PROBLÈME -->
+  <section class="rosebg" id="probleme">
+    <div class="wrap">
+      <h2 class="title">Vous reconnaissez <em>vos cheveux</em> ?</h2>
+      <div class="probs">
+        <div class="prob"><span class="ic" aria-hidden="true">🌫️</span>Des frisottis dès qu'il fait humide</div>
+        <div class="prob"><span class="ic" aria-hidden="true">🦁</span>Des cheveux gonflés, difficiles à coiffer</div>
+        <div class="prob"><span class="ic" aria-hidden="true">🍂</span>Des cheveux secs, rêches et sans éclat</div>
+        <div class="prob"><span class="ic" aria-hidden="true">⚡</span>De l'électricité statique, un brushing qui ne tient pas</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. BÉNÉFICES (visuel de la fiche Shopify) -->
+  <img class="full" src="assets/benefices.webp" width="750" height="450" loading="lazy" alt="Réduit efficacement les frisottis et l'électricité statique. Hydrate et nourrit pour apporter douceur, souplesse et brillance sans alourdir. Formule sans sulfates.">
+
+  <!-- 4. ÉTAPE 1 / ÉTAPE 2 -->
+  <div class="band">Étape 1 – <b>Anti-Frizz Shampoo</b></div>
+  <p class="step-sub">Nettoie en douceur, nourrit &amp; réduit les frisottis dès la racine</p>
+  <div class="step-img"><img class="full" src="assets/etape1.webp" width="600" height="692" loading="lazy" alt="Shampoing Anti-Frizz : huile d'argan bio (lisse, adoucit, protège de l'humidité), protéine végétale (réduit les frisottis et l'électricité statique), prébiotiques (hydratent et apaisent le cuir chevelu). 0 % sulfates."></div>
+  <div class="band">Étape 2 – <b>Anti-Frizz Conditioner</b></div>
+  <p class="step-sub">Démêle, hydrate &amp; lisse intensément la fibre capillaire</p>
+  <div class="step-img"><img class="full" src="assets/etape2.webp" width="600" height="692" loading="lazy" alt="Après-shampoing Anti-Frizz : huile d'argan bio, protéine végétale, prébiotiques. 0 % sulfates."></div>
+
+  <!-- 5. AVANT / APRÈS (photos de la fiche Shopify) -->
+  <section class="ba" id="avant-apres">
+    <h2 class="title">Avant / Après</h2>
+    <div class="ba-grid">
+      <div class="ba-col"><span class="lb">Avant</span><p>Frisottis, volume incontrôlable, coiffage difficile</p><img src="assets/avant.webp" width="420" height="420" loading="lazy" alt="Cheveux longs frisés et gonflés, vus de dos"></div>
+      <div class="ba-col"><span class="lb">Après</span><p>Cheveux disciplinés, doux et brillants</p><img src="assets/apres.webp" width="420" height="420" loading="lazy" alt="Les mêmes cheveux, lisses et disciplinés"></div>
+    </div>
+    <p class="ba-foot">Bye bye frisottis,<br>des racines aux pointes</p>
+  </section>
+
+  <!-- 6. VISUEL « FRISOTTIS MAÎTRISÉS » -->
+  <img class="full" src="assets/salle-de-bain.webp" width="750" height="1095" loading="lazy" alt="Frisottis maîtrisés. Discipline et éclat. Les deux flacons Anti-Frizz Björn Axén dans une salle de bain">
+
+  <!-- 7. POUR QUI -->
+  <section class="rosebg" id="pour-qui">
+    <div class="wrap">
+      <h2 class="title">Pour qui ?</h2>
+      <ul class="who">
+        <li>Cheveux bouclés ou frisés</li>
+        <li>Cheveux secs ou indisciplinés</li>
+        <li>Cheveux sujets aux frisottis</li>
+        <li>Cheveux difficiles à coiffer</li>
+        <li>Cheveux kératinés ou protéinés</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 8. MARQUE -->
+  <section id="marque">
+    <div class="wrap">
+      <h2 class="title">Une marque <em>suédoise</em> d'exception</h2>
+      <div class="brand">
+        <div><span class="ic" aria-hidden="true">🏛️</span><span>Björn Axén, une marque de Suède<small>« From Sweden with care », comme sur chaque flacon</small></span></div>
+        <div><span class="ic" aria-hidden="true">👑</span><span>Fournisseur de la Cour royale de Suède<small>« Purveyor to the Royal Court of Sweden »</small></span></div>
+        <div><span class="ic" aria-hidden="true">🐰</span><span>Testé dermatologiquement &amp; vegan<small>Formule sans sulfates, douce pour les cheveux</small></span></div>
+        <div><span class="ic" aria-hidden="true">🔒</span><span>Produit original<small>Vendu par Pharmescence, votre boutique beauté et soin</small></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. AVIS : avis en français de la fiche Shopify (pharmescence.store/products/anti-frizz), orthographe corrigée -->
+  <section class="avis" id="avis">
+    <div class="wrap">
+      <h2 class="title">Elles l'ont testé.<br>Elles ont vu la différence 💬</h2>
+      <div class="bubbles">
+        <div class="bubble"><b>Rita J.</b><p>La gamme Anti-Frizz a transformé mes boucles : je n'ai plus de frisottis et mes cheveux sont souples. En plus, elle est sans sulfates !</p></div>
+        <div class="bubble"><b>Qamar N.</b><p>Mes boucles restent souples, sans frisottis et ultra brillantes toute la journée. Coup de cœur pour la gamme Anti-Frizz !</p></div>
+        <div class="bubble"><b>Souad R.</b><p>J'ai fait un soin kératine et je cherchais un shampoing adapté. Depuis que j'utilise l'Anti-Frizz, mes cheveux restent doux et l'effet lissant dure vraiment.</p></div>
+        <div class="bubble"><b>Firdaous B.</b><p>Je n'ai plus besoin de faire un brushing tous les jours, les frisottis sont enfin contrôlés.</p></div>
+        <div class="bubble"><b>Douaa O.</b><p>Mes cheveux sont plus souples, plus brillants et surtout beaucoup moins gonflés.</p></div>
+        <div class="bubble"><b>Kenza A.</b><p>Mes cheveux sont plus faciles à coiffer et paraissent plus sains.</p></div>
+        <div class="bubble"><b>Soukaina B.</b><p>Un excellent produit, je le recommande sans hésiter.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. ROUTINE -->
+  <section id="utilisation">
+    <div class="wrap">
+      <h2 class="title">Votre routine en <em>2 étapes</em></h2>
+      <div class="how">
+        <div><span class="st">Étape 1</span><b>Shampoing</b>Sur cheveux mouillés, massez le cuir chevelu et les longueurs, puis rincez.</div>
+        <div><span class="st">Étape 2</span><b>Après-shampoing</b>Sur les longueurs et les pointes, laissez agir quelques minutes, puis rincez.</div>
+      </div>
+      <p class="tip">👉 À utiliser régulièrement pour de meilleurs résultats.</p>
+    </div>
+  </section>
+
+  <!-- 11. FAQ -->
+  <section class="faq rosebg" id="faq">
+    <div class="wrap">
+      <h2 class="title">Questions fréquentes</h2>
+      <details><summary>Que contient le pack ?</summary><p>Un shampoing Anti-Frizz et un après-shampoing Anti-Frizz Björn Axén, de 250 ml chacun.</p></details>
+      <details><summary>Ça marche sur les cheveux bouclés ou frisés ?</summary><p>Oui. Le pack est formulé pour les cheveux bouclés, frisés, secs ou indisciplinés, sujets aux frisottis.</p></details>
+      <details><summary>Je peux l'utiliser après un soin kératine ?</summary><p>Oui. La formule est douce et sans sulfates, adaptée aux cheveux kératinés ou protéinés.</p></details>
+      <details><summary>Comment je paie ?</summary><p>À la livraison. Vous payez quand vous recevez votre commande, rien à payer maintenant.</p></details>
+      <details><summary>Quand vais-je recevoir ma commande ?</summary><p>Sous 24 à 48 h. Nous livrons partout au Maroc.</p></details>
+      <details><summary>Combien coûte la livraison ?</summary><p><span class="num">15 DH</span> à Casablanca et <span class="num">25 DH</span> dans les autres villes, soit <span class="num">390 DH</span> livré à Casablanca ou <span class="num">400 DH</span> ailleurs.</p></details>
+    </div>
+  </section>
+
+  <!-- 12. OFFRE + FORMULAIRE -->
+  <p class="tagline">Ne ratez pas cette offre limitée</p>
+  <div class="priceband" style="margin-top:12px">
+    <div class="was"><s><span class="num">475 DH</span></s></div>
+    <div class="now"><span class="num">375<sup>DH</sup></span></div>
+  </div>
+  <section class="order" id="commander">
+    <div class="wrap">
+      <h2 class="title">Commandez maintenant 👇</h2>
+      <div class="recap">
+        <div class="ri"><img src="assets/pack-thumb.webp" width="200" height="200" loading="lazy" alt=""></div>
+        <div>
+          <b>Pack Anti-Frizz Björn Axén</b>
+          <div class="rv">Shampoing + Après-shampoing · 2 × 250 ml</div>
+          <div class="pr"><span class="num">375 DH</span> <small>au lieu de <s><span class="num">475 DH</span></s></small></div>
+        </div>
+      </div>
+<!-- DROPIFY_ORDER_FORM_START -->
+      <form id="orderForm" novalidate>
+        <div class="f"><label for="f-name">Nom complet</label>
+          <input id="f-name" name="name" autocomplete="name" required placeholder="Ex. : Salma Bennani">
+          <div class="er" id="e-name" aria-live="polite"></div></div>
+        <div class="f"><label for="f-phone">Téléphone</label>
+          <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="06XXXXXXXX" maxlength="20">
+          <div class="er" id="e-phone" aria-live="polite"></div></div>
+        <div class="f"><label for="f-city">Ville</label>
+          <input id="f-city" name="city" autocomplete="address-level2" required placeholder="Ex. : Casablanca">
+          <div class="er" id="e-city" aria-live="polite"></div></div>
+        <div class="f"><label for="f-address">Adresse</label>
+          <input id="f-address" name="address" autocomplete="street-address" required placeholder="Quartier, rue, numéro">
+          <div class="er" id="e-address" aria-live="polite"></div></div>
+        <fieldset class="f"><legend>Livraison</legend>
+          <div class="ship" id="ship">
+            <label><input type="radio" name="shipping" value="casa"> Casablanca <span>+15 DH</span></label>
+            <label><input type="radio" name="shipping" value="hors"> Autres villes <span>+25 DH</span></label>
+          </div>
+          <div class="er" id="e-shipping" aria-live="polite"></div></fieldset>
+        <div class="total" id="total" hidden>Total à payer à la livraison <strong id="totalVal"></strong></div>
+        <button class="btn" type="submit" id="submitBtn">Commander — <span class="num">375 DH</span></button>
+        <p class="fine">💵 Paiement à la livraison · Nous vous appelons pour confirmer</p>
+      </form>
+      <div class="msg ok" id="msgOk" hidden role="status">✅ Merci ! Nous vous appelons très vite pour confirmer votre commande.</div>
+      <div class="msg test" id="msgTest" hidden role="status">🧪 Mode test : commande non envoyée (ORDER_ENDPOINT vide)</div>
+      <div class="msg fail" id="msgFail" hidden role="alert">Une erreur est survenue. Merci de réessayer.</div>
+<!-- DROPIFY_ORDER_FORM_END -->
+    </div>
+  </section>
+  </main>
+
+  <footer>
+    <img class="ph" src="assets/logo-pharmescence.png" width="185" height="33" loading="lazy" alt="Pharmescence">
+    <p><b>Pharmescence</b> — votre boutique beauté et soin</p>
+    <p>Paiement à la livraison · Livraison partout au Maroc</p>
+  </footer>
+</div>
+
+<!-- 13. BOUTON COLLANT -->
+<div class="sticky" id="sticky" aria-hidden="true">
+  <a href="#commander" class="btn" tabindex="-1" id="stickyBtn">J'en profite — <span class="num">375 DH</span></a>
+</div>
+
+<script>
+/* ===== Réglages ===== */
+const ORDER_ENDPOINT = '';          // URL qui reçoit la commande en POST JSON. Vide = mode test (rien n'est envoyé).
+const FIRE_ORDER_EVENTS = true;     // false si c'est le formulaire Dropify qui gère la commande (évite le double comptage).
+const FIRE_VIEW_EVENT = true;       // false si la page est intégrée dans Dropify, qui envoie déjà ViewContent.
+const PRODUCT = { id: 'BAP0006', name: 'Pack Anti-Frizz Björn Axén (Shampoing & Après-Shampoing)', price: 375, compare: 475, currency: 'MAD' };
+const SHIPPING = { casa: { label: 'Livraison Casablanca', fee: 15 }, hors: { label: 'Livraison Hors Casablanca', fee: 25 } };
+
+/* ===== Suivi : Meta (fbq) + TikTok (ttq), seulement s'ils existent ===== */
+const EVENTS = { view: ['ViewContent', 'ViewContent'], checkout: ['InitiateCheckout', 'InitiateCheckout'], order: ['Purchase', 'PlaceAnOrder'] };
+function track(step, params) {
+  const ev = EVENTS[step]; if (!ev) return;
+  params = params || {};
+  const meta = { value: PRODUCT.price, currency: PRODUCT.currency, content_ids: [PRODUCT.id], content_name: PRODUCT.name, content_type: 'product', num_items: 1 };
+  const tt = { value: PRODUCT.price, currency: PRODUCT.currency, content_type: 'product', contents: [{ content_id: PRODUCT.id, content_name: PRODUCT.name, quantity: 1, price: PRODUCT.price }] };
+  const id = params.event_id;
+  try { if (typeof window.fbq === 'function') id ? fbq('track', ev[0], meta, { eventID: id }) : fbq('track', ev[0], meta); } catch (e) {}
+  try { if (window.ttq && typeof ttq.track === 'function') ttq.track(ev[1], tt, id ? { event_id: id } : undefined); } catch (e) {}
+}
+if (FIRE_VIEW_EVENT) (function wait(n) {
+  if (typeof window.fbq === 'function' || (window.ttq && window.ttq.track)) return track('view');
+  if (n > 0) setTimeout(function () { wait(n - 1); }, 300);
+})(20);
+
+const $ = function (id) { return document.getElementById(id); };
+
+/* ===== Bouton collant : caché sur le hero et sur le formulaire ===== */
+(function () {
+  const sticky = $('sticky'), hero = $('heroCta'), order = $('commander');
+  if (!('IntersectionObserver' in window)) { sticky.classList.add('on'); return; }
+  let heroVis = true, orderVis = false;
+  const upd = function () { const on = !heroVis && !orderVis; sticky.classList.toggle('on', on); sticky.setAttribute('aria-hidden', on ? 'false' : 'true'); $('stickyBtn').tabIndex = on ? 0 : -1; };
+  new IntersectionObserver(function (e) { heroVis = e[0].isIntersecting; upd(); }).observe(hero);
+  new IntersectionObserver(function (e) { orderVis = e[0].isIntersecting; upd(); }, { rootMargin: '0px 0px -30% 0px' }).observe(order);
+})();
+
+/* ===== Formulaire ===== */
+(function () {
+  const form = $('orderForm'); if (!form) return;
+  const btn = $('submitBtn');
+  let started = false, sending = false;
+  form.addEventListener('focusin', function () { if (started) return; started = true; if (FIRE_ORDER_EVENTS) track('checkout'); });
+
+  const ship = function () { const r = form.querySelector('input[name=shipping]:checked'); return r ? r.value : ''; };
+  const btnLabel = function () { const s = ship(); return 'Commander — <span class="num">' + (PRODUCT.price + (s ? SHIPPING[s].fee : 0)) + ' DH</span>'; };
+  form.querySelectorAll('input[name=shipping]').forEach(function (r) {
+    r.addEventListener('change', function () {
+      const s = ship(); $('ship').classList.remove('bad'); $('e-shipping').textContent = '';
+      $('total').hidden = false; $('totalVal').textContent = (PRODUCT.price + SHIPPING[s].fee) + ' DH';
+      btn.innerHTML = btnLabel();
+    });
+  });
+
+  function normPhone(v) {
+    const d = String(v).replace(/[\s\-.()]/g, '').replace(/^00/, '+');
+    const m = d.match(/^\+212(?:0)?([67]\d{8})$/) || d.match(/^212([67]\d{8})$/) || d.match(/^0([67]\d{8})$/);
+    return m ? '0' + m[1] : null;
+  }
+  const rules = {
+    name: function (v) { return v.trim().length >= 3 ? '' : 'Merci d\'indiquer votre nom complet'; },
+    phone: function (v) { return normPhone(v) ? '' : 'Numéro invalide. Exemple : 0612345678'; },
+    city: function (v) { return v.trim().length >= 2 ? '' : 'Merci d\'indiquer votre ville'; },
+    address: function (v) { return v.trim().length >= 5 ? '' : 'Merci d\'indiquer votre adresse de livraison'; }
+  };
+  function check(n) { const el = form.elements[n], m = rules[n](el.value); $('e-' + n).textContent = m; el.setAttribute('aria-invalid', m ? 'true' : 'false'); return !m; }
+  Object.keys(rules).forEach(function (n) {
+    form.elements[n].addEventListener('blur', function () { if (this.value) check(n); });
+    form.elements[n].addEventListener('input', function () { if (this.getAttribute('aria-invalid') === 'true') check(n); });
+  });
+  function uid() { return 'af-' + Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 8); }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault(); if (sending) return;
+    let first = null;
+    Object.keys(rules).forEach(function (n) { if (!check(n) && !first) first = form.elements[n]; });
+    if (!ship()) { $('ship').classList.add('bad'); $('e-shipping').textContent = 'Choisissez votre zone de livraison'; if (!first) first = form.querySelector('input[name=shipping]'); }
+    if (first) { first.focus(); return; }
+    ['msgTest', 'msgFail'].forEach(function (id) { $(id).hidden = true; });
+    const q = new URLSearchParams(location.search), utm = {};
+    ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'ttclid', 'fbclid'].forEach(function (k) { if (q.get(k)) utm[k] = q.get(k); });
+    const orderId = uid(), s = SHIPPING[ship()];
+    const payload = {
+      order_id: orderId,
+      name: form.elements.name.value.trim(),
+      phone: normPhone(form.elements.phone.value),
+      city: form.elements.city.value.trim(),
+      address: form.elements.address.value.trim(),
+      product: PRODUCT.name, sku: PRODUCT.id, quantity: 1, price: PRODUCT.price, currency: PRODUCT.currency,
+      shipping: s.label, shipping_fee: s.fee, total: PRODUCT.price + s.fee,
+      lang: 'fr', page: location.href.split('?')[0], tracking: utm
+    };
+    if (!ORDER_ENDPOINT) { $('msgTest').hidden = false; console.info('[test] commande non envoyée', payload); return; }
+    sending = true; btn.disabled = true; btn.textContent = 'Envoi en cours…';
+    fetch(ORDER_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
+      .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r; })
+      .then(function () {
+        if (FIRE_ORDER_EVENTS) track('order', { event_id: orderId });
+        form.hidden = true; $('msgOk').hidden = false;
+        $('msgOk').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      })
+      .catch(function () { $('msgFail').hidden = false; sending = false; btn.disabled = false; btn.innerHTML = btnLabel(); });
+  });
+})();
+</script>
+</body>
+</html>
